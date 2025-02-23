@@ -84,14 +84,6 @@ export default function Header() {
                   {item.name}
                 </a>
               ))}
-              <div className="pt-4 flex flex-col space-y-2">
-                <button className="px-4 py-2 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors">
-                  Login
-                </button>
-                <button className="px-4 py-2 text-sm font-medium text-white bg-primary-500 rounded-full hover:bg-primary-600 transition-colors">
-                  Daftar
-                </button>
-              </div>
             </nav>
           </div>
         )}
